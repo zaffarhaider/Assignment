@@ -1,8 +1,8 @@
 import csv
 
-#first exercise: count the number of lines in Python for each file 
-
-def read_data():
+             
+    #Task-1: Count the number of lines in Python for each file 
+def read_files():
     f1 = open('bookings.csv') # opens the booking.csv file
     f2 = open('searches.csv') # opens the searches.csv file
     try:

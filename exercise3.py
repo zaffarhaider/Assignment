@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Third exercise: plot the monthly number of searches for flights arriving at Málaga, Madrid or Barcelona
+#Third exercise: plot the monthly number of searches for flights arriving at Malaga, Madrid or Barcelona
 def search_dest():
     df = pd.read_csv('searches.csv',sep='^',usecols=['Date','Destination'],error_bad_lines=False) #read Date and Destination coloums from the file. some lines have erors which are ignored.
     
